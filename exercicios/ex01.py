@@ -1,4 +1,4 @@
-pessoa=input("Digite seu estado civil, C(casado), S(solteiro), V(viuvo), D(divorciados) ou O(outros). ")
+pessoa=input("Digite seu estado civil, C(casado), S(solteiro), V(viuvo), D(divorciados) ou O(outros).")
 if pessoa == "C":
     print("casado")
 elif pessoa == "C":
@@ -10,4 +10,4 @@ elif pessoa == "V":
 elif pessoa == "D":
     print("divorciados")
 else:
-    print("outros")   
+    print("outro")   
