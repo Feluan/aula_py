@@ -1,9 +1,19 @@
-qnt_turmas = total_alunos = turma_atual = 0
-while qnt_turmas <= 0:
-    entrada = input("Digite a quantidade de turmas: ")
-    eh_numero = True
-    i = 0
+quantidade = 0
+total_alunos = 0 
+turma_atual = 0
+entrada = ""
+eh_numero = 0
+indice = 0
+num_alunos = 0
+
+while quantidade <= 0:
+    entrada = input("Quantidade de turmas: ")
+    eh_numero = 1
+    indice = 0 
     
-    while i < len(entrada) and eh_numero
-        caractere = entrada[i]
-        if caractere     
+    while indice < 100 and entrada[indice:indice+1]:
+        if entrada[indice] not in "0123456789":
+            eh_numero = 0 
+        indice += 1
+    if eh_numero and entrada:
+        quantidade = int(entrada)     
