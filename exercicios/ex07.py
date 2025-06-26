@@ -15,5 +15,8 @@ while quantidade <= 0:
         if entrada[indice] not in "0123456789":
             eh_numero = 0 
         indice += 1
+        
+        
     if eh_numero and entrada:
-        quantidade = int(entrada)     
+        quantidade = int(entrada)
+    print(f"numero invalido" if quantidade <= 0 else "", end = "")     
